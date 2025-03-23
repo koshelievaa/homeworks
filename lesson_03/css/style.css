@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+* {
+    color: brown;
+}
+
+h1,
+h2 {
+    color: aqua;
+}
+
+.more {
+    color: yellow;
+}
+
+#main-li{
+    color: blue;
+}
+
+[class*="viole"] {
+    color: palevioletred;
+}
+
+a.important-link {
+    color: rgb(15, 228, 154);
+}
+
+.container-title.green-title {
+    color: green;
+}
+
+.text span {
+    color: red;
+}
+
+.text .orange-span {
+    color: orange;
+}
+
+.navigation * {
+    color: black;
+}
