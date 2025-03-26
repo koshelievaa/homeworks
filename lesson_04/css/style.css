@@ -1,0 +1,75 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+.main-quote {
+    font-family: 'Shafarik', fantasy;
+    font-size: 20px;
+}
+
+.quote {
+    font-family: 'Caveat', fantasy;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'RobotoMono', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 1px #000;
+    letter-spacing: 5px;
+}
+
+/* я знаю, що ця властивість не для зображень, але поки ми не вчили інші властивості, вирішила відцентрувати їх так */
+.image {
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+    font-style: oblique;
+}
+
+.fifth-text {
+    line-height: 40px;
+}
+
+.seventh-text.quote {
+    word-spacing: 35px;
+}
+
+a {
+    color: brown;
+    text-decoration: underline;
+}
+
+.second-task h2 {
+    font-family: 'Montserrat Underline', sans-serif;
+    font-weight: 700;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.second-task {
+    font-family: "Poppins", sans-serif;
+    word-spacing: normal;
+}
+
+.text-top {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+	color: #1a1a1a;
+}
+
+.text-top ~ p {
+    font-weight: normal;
+	font-size: 18px;
+    line-height: 27px;
+	color: #808080;
+}

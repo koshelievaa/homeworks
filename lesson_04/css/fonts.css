@@ -1,0 +1,29 @@
+/* підключення з Google Fonts в CSS через плагін: */
+@import url("https://fonts.googleapis.com/css?family=Shafarik:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:regular,italic,700,700italic&display=swap");
+
+/* підключення з папки шрифтів. хоч ці шрифти є в Google Fonts, я їх скачала */
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RobotoMono";
+    src: url("../fonts/RobotoMono-SemiBold.woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
