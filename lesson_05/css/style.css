@@ -1,0 +1,136 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #FFF;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color:#231F8B;
+}
+
+.container {
+    background-color: #231F8B;
+}
+
+.advantages {
+    width: 1050px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+.adv-headline-subtitle {
+    color: #5A54F2;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.adv-headline-title {
+    font-family: 'CircularStd', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.adv-headline-text {
+    max-width: 765px;
+    font-family: 'CircularStd', sans-serif;
+    font-weight: 450;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+
+.advantages-headline {
+    margin-bottom: 70px;
+}
+
+.cards {
+    font-size: 0;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    max-width: 230px;
+    width: 100%;
+    padding: 35px 40px;
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-family: 'CircularStd', sans-serif;
+    font-size: 16px;
+    color: #252B42;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    margin: 20px 0;
+}
+
+.card-line {
+    max-width: 50px;
+    min-height: 2px;
+    background-color: #E74040;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #737373;
+    line-height: 1.4;
+
+}
+
+.card-hover {
+    background-color: #5A54F2;
+}
+
+.card-hover .card-title {
+    font-family: 'CircularStd', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    margin: 20px 0;
+}
+
+.card-hover .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 1.4;
+}
+
+.card-fall {
+    margin-top: -48px;
+}
+
+.indent {
+    margin-right: 30px;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    color:#231F8B;
+}
