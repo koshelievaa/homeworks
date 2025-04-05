@@ -1,0 +1,219 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+body {
+    font-size: 14px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color: #302C42;
+}
+
+/* Ecobazar */
+
+.ecobazar-container {
+    max-width: 678px;
+    width: 100%;
+    margin: 0 auto 50px;
+    padding: 0px 15px;
+
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    line-height: 1.5;
+}
+
+.ecobazar-container p,
+.ecobazar-container ul {
+    margin-bottom: 20px;
+}
+
+.ecobazar-container p+p~p {
+    margin-bottom: 0;
+}
+
+/* в макеті останній параграф не має власного відступу */
+
+.ecobazar-container li {
+    line-height: 1.4;
+    margin-bottom: 14px;
+    padding-left: 28px;
+    background: url("../img/check.svg") 0 0/17px no-repeat;
+}
+
+.ecobazar-container li+li+li~li {
+    margin-bottom: 0;
+}
+
+/* роблю так, бо в ul вже є власний margin */
+
+/* Hidra */
+
+.hidra {
+    background-color: #302C42;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.hidra-container {
+    max-width: 1302px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 15px;
+
+    background: url("../img/vector7.svg") 0 0/contain no-repeat, url("../img/vector8.svg") bottom/contain no-repeat;
+
+    font-size: 0;
+}
+
+.imagine {
+    max-width: 524px;
+    width: 100%;
+    max-height: 557px;
+    overflow: hidden;
+    border-radius: 240px 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 108px;
+}
+
+.hidra-text {
+    max-width: 630px;
+    width: 100%;
+}
+
+.imagine,
+.hidra-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hidra-text h2 {
+    max-width: 136px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.hidra-text h3 {
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 192px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 42px;
+}
+
+.hidra-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+
+.button {
+    color: #343045;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 17px 47px 16px 39px;
+    max-width: 214px;
+    width: 100%;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+/* Contacts */
+
+.contacts {
+    background-color: #302C42;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.contacts-container {
+    max-width: 1302px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    font-size: 0;
+
+    box-shadow: 0px 4px 4px 0px rgba(5, 5, 6, 0.01);
+    border-radius: 90px;
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 95%);
+}
+
+.contact {
+    display: inline-block;
+    padding: 28px 0;
+}
+
+.contact p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact a {
+    font-size: 14px;
+}
+
+.location,
+.phone,
+.mail {
+    max-width: 424px;
+    width: 100%;
+    vertical-align: middle;
+
+    padding-left: 109px;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+
+.location {
+    padding-right: 42px;
+    background-image: url("../img/location.svg");
+    background-size: 70px 70px;
+}
+
+.phone {
+    padding-right: 66px;
+    background-image: url("../img/phone.svg");
+    background-size: 59px 59px;
+}
+
+.mail {
+    padding-right: 80px;
+    background-image: url("../img/mail.svg");
+    background-size: 65px 65px;
+
+    border-right: none;
+}
+
+/* ... */
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    color: #302C42;
+}
