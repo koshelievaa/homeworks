@@ -1,0 +1,266 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color: #412672;
+}
+
+.business-container {
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.business {
+    background-color: #412672;
+    padding: 61px 0 102px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+}
+
+.business-title {
+    color: #FFF;
+    font-size: 38px;
+    line-height: 1.21;
+    margin-bottom: 31px;
+}
+
+.business-title h2 strong {
+    font-weight: 700;
+}
+
+.cards {
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+}
+
+.card:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    max-width: 387px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    background: #FFF;
+    box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card:hover {
+    background-color: #FFBE48;
+}
+
+.card *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 266px;
+}
+
+.card-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.card-text {
+    min-height: 76px;
+    color: #4F4F4F;
+    font-size: 15px;
+    line-height: 1.26;
+}
+
+.card a {
+    color: #FE3F3F;
+    font-size: 15px;
+    line-height: 1.26;
+}
+
+/* Faculty */
+
+.faculty-container {
+    max-width: 548px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.faculty {
+    background-color: #FFFFFF;
+    color: #412672;
+    padding: 153px 0 139px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+}
+
+.faculty-container h2 {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.faculty-container h2 strong {
+    font-weight: 700;
+}
+
+.faculty-container p {
+    font-size: 22px;
+    line-height: 1.22;
+    margin-bottom: 20px;
+}
+
+.faculty-container ul {
+    color: #4F4F4F;
+    font-size: 20px;
+    line-height: 1.22;
+}
+
+.faculty-container ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.faculty-container ul li::before {
+    background-image: url("../img/frame.svg");
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    content: " ";
+    margin-right: 13px;
+}
+
+/* Гра */
+
+.game {
+    background-color: #360d82;
+    padding: 61px 0 102px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+}
+
+.game-container {
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.item:first-of-type,
+.item:last-of-type {
+    width: 250px;
+    font-size: 25px;
+    background-color: #9e5ed2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item:nth-child(odd) {
+    background-color: #6e3f95;
+}
+
+.item:nth-child(even) {
+    background-color: #9178a6;
+}
+
+.item:nth-child(2) {
+    width: 50px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.item:nth-child(3) {
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.item:nth-child(4) {
+    width: 40px;
+    height: 60px;
+    margin-left: 210px;
+}
+
+.item:nth-child(5) {
+    width: 150px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+.item:nth-child(6) {
+    width: 15px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+.item:nth-child(7) {
+    width: 350px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+.item:nth-child(8) {
+    width: 40px;
+    height: 200px;
+    margin-left: 410px;
+}
+
+.item:nth-child(9) {
+    width: 280px;
+    height: 50px;
+    margin-left: 410px;
+}
+
+.item:nth-child(10) {
+    width: 50px;
+    height: 290px;
+    margin-left: 640px;
+}
+
+.item:last-of-type {
+    width: 280px;
+    height: 50px;
+    margin-left: 410px;
+}
+
+.item:not(:first-child) {
+    visibility: hidden;
+}
+
+.item:hover+.item,
+.item:hover {
+    visibility: visible;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    background-color: #412672;
+    color: #fff;
+}
