@@ -22,12 +22,12 @@
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    background-color: #284D79;
+    background-color: #231f8b;
     color: #ABC0DF;
 }
 
 [class*="__container"] {
-    max-width: 1329px;
+    max-width: 1229px;
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
@@ -194,6 +194,7 @@
 
 .technology {
     padding-bottom: 85px;
+    position: relative;
 }
 
 .technology__image {
@@ -208,11 +209,13 @@
 .technology__image img {
     border-radius: 20px;
     box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
+    position: relative;
+    z-index: 2;
 }
 
 .text-technology {
     display: inline-block;
-    margin-top: 97px;
+    padding-top: 97px;
 }
 
 .text-technology__title,
@@ -235,6 +238,7 @@
     max-width: 480px;
     width: 100%;
     margin-bottom: 39px;
+    line-height: 1.66;
 }
 
 .text-technology__link,
@@ -247,6 +251,10 @@
 
 .platform {
     margin-left: 250px;
+    position: relative;
+}
+
+.text-platform {
     display: inline-block;
 }
 
@@ -261,4 +269,76 @@
 .platform__image img {
     border-radius: 20px;
     box-shadow: 22px 42px 44px 0px rgba(0, 0, 0, 0.30);
+    position: relative;
+    z-index: 2;
+}
+
+.text-technology__link:hover,
+.text-platform__link:hover {
+    background: #FFF;
+    color: #F35B09;
+}
+
+.technology__image::before,
+.platform__image::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #FFBA49;
+    z-index: 1;
+}
+
+.technology__image::before {
+    left: -25.11%;
+    bottom: -12%;
+    width: 401px;
+    height: 401px;
+}
+
+.technology__image::after {
+    top: 25.04%;
+    left: -29.76%;
+}
+
+.technology__image::after,
+.platform__image::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #FFBA49;
+    width: 65px;
+    height: 65px;
+    z-index: 3;
+}
+
+.platform__image::before {
+    top: -4.74%;
+    right: -30%;
+    width: 262px;
+    height: 262px;
+}
+
+.platform__image::after {
+    top: -8.759%;
+    left: 21.395%;
+}
+
+.technology::before {
+    content: '';
+    position: absolute;
+    background: url('../img/dots-left.svg') 0 0 no-repeat;
+    width: 200px;
+    height: 458px;
+    top: 59.3%;
+    left: -7.33%;
+}
+
+.platform::before {
+    content: '';
+    position: absolute;
+    background: url('../img/dots-right.svg') 0 0 no-repeat;
+    width: 458px;
+    height: 200px;
+    top: 34.671%;
+    right: -18.54%;
 }
