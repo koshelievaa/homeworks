@@ -1,83 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CSS властивості, відступи</title>
-</head>
-<body>
-    <header>
-		<div>
-			<h1>CSS властивості блоків, відступи між елементами margin та padding</h1>
-		</div>
-	</header>
-
-    <main>
-		<div class="container">
-			<div class="advantages">
-				<div class="advantages-headline">
-					<div class="adv-headline-subtitle">
-						<strong>Our Advantages</strong>
-					</div>
-					<div class="adv-headline-title">
-						<h2>Explore the Modern Connected Risk Platform
-						</h2>
-					</div>
-					<div class="adv-headline-text">
-						<p>Built to provide the efficiency, connectedness, and visibility you need to stay ahead of today’s dynamic risk environment.</p>
-					</div>
-				</div>
-
-				<div class="cards">
-					<div class="card indent">
-						<div class="card-content">
-							<img src="img/building.svg" class="card-img" alt="building">
-							<h5 class="card-title">Risk Management</h5>
-							<div class="card-line"></div>
-							<p class="card-text">The gradual accumulation of information about</p>
-						</div>
-					</div>
-
-					<div class="card indent card-fall">
-						<div class="card-content">
-							<img src="img/book.svg" class="card-img" alt="book">
-							<h5 class="card-title">Compliance Management</h5>
-							<div class="card-line"></div>
-							<p class="card-text">The gradual accumulation of information about</p>
-						</div>
-					</div>
-					
-					<div class="card indent card-hover">
-						<div class="card-content">
-							<img src="img/stack.svg" class="card-img" alt="stack">
-							<h5 class="card-title">SOX Management</h5>
-							<div class="card-line"></div>
-							<p class="card-text">The gradual 
-								information about 
-								atomic behaviour...</p>
-						</div>
-					</div>
-
-					<div class="card card-fall">
-						<div class="card-content">
-							<img src="img/speaker.svg" class="card-img" alt="speaker">
-							<h5 class="card-title">Internal Audit Streamlined
-							</h5>
-							<div class="card-line"></div>
-							<p class="card-text">The gradual accumulation of information about</p>
-						</div>
-					</div>
-				</div>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>CSS властивості, відступи</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>CSS властивості блоків, відступи між елементами margin та padding</h1>
 			</div>
-		</div>
-	</main>
+		</header>
 
-    <footer>
-		<p>
-			Колись тут буде футер
-		</p>
-	</footer>
-    
-</body>
-</html>
+		<main>
+			<div class="advantages">
+				<div class="advantages-container">
+					<div class="advantages-top-block">
+						<p class="advantages-label">
+							<strong>Our Advantages</strong>
+							<h2 class="advantages-title">Explore the Modern Connected Risk
+								Platform</h2>
+							<div class="advantages-text">
+								<p>Built to provide the efficiency, connectedness, and visibility you
+									need to stay ahead of today’s dynamic risk environment.</p>
+							</div>
+						</div>
+						<div class="cards">
+							<div class="cards-inner">
+								<div class="card">
+									<div class="card-content">
+										<img src="img/building.svg" class="card-image" alt="Image">
+										<h3 class="card-title">Risk Management</h3>
+										<span class="border"></span>
+										<p class="card-text">The gradual accumulation of information about</p>
+									</div>
+								</div>
+								<div class="card card-top-indent">
+									<div class="card-content">
+										<img src="img/book.svg" class="card-image" alt="Image">
+										<h3 class="card-title">Compliance Management</h3>
+										<span class="border"></span>
+										<p class="card-text">The gradual accumulation of information about</p>
+									</div>
+								</div>
+								<div class="card card-accent">
+									<div class="card-content">
+										<img src="img/stack.svg" class="card-image" alt="Image">
+										<h3 class="card-title">SOX Management</h3>
+										<span class="border"></span>
+										<p class="card-text">The gradual information about atomic
+											behaviour...</p>
+									</div>
+								</div>
+								<div class="card card-top-indent">
+									<div class="card-content">
+										<img src="img/speaker.svg" class="card-image" alt="Image">
+										<h3 class="card-title">Internal Audit Streamlined</h3>
+										<span class="border"></span>
+										<p class="card-text">The gradual accumulation of information about</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+
+			<footer>
+				<p>
+					Колись тут буде футер
+				</p>
+			</footer>
+
+		</body>
+	</html>

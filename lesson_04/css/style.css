@@ -57,19 +57,17 @@ a {
 
 .second-task {
     font-family: "Poppins", sans-serif;
-    word-spacing: normal;
 }
 
 .text-top {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-	color: #1a1a1a;
+    color: #1a1a1a;
 }
 
-.text-top ~ p {
-    font-weight: normal;
-	font-size: 18px;
+.text-top~p {
+    font-size: 18px;
     line-height: 27px;
-	color: #808080;
+    color: #808080;
 }

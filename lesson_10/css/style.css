@@ -36,6 +36,10 @@
 
 /* Ecobazar */
 
+.ecobazar {
+    padding: 50px 0px;
+}
+
 .ecobazar__container {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -47,7 +51,6 @@
     border: 1px solid #E6E6E6;
     max-width: 264px;
     width: 100%;
-    margin: 50px 0;
     position: relative;
 }
 
@@ -71,6 +74,14 @@
     visibility: visible;
 }
 
+.card-ecobazar__tip>* {
+    margin-bottom: 6px;
+}
+
+.card-ecobazar__tip>*:last-child {
+    margin-bottom: 0px;
+}
+
 .card-ecobazar__like,
 .card-ecobazar__view {
     width: 40px;
@@ -79,10 +90,6 @@
     border-radius: 20px;
     background-color: #FFF;
     padding: 10px;
-}
-
-.card-ecobazar__like {
-    margin-bottom: 6px;
 }
 
 .card-ecobazar__like:hover,
@@ -107,6 +114,7 @@
     color: #4D4D4D;
     line-height: 1.5;
     margin-bottom: 6px;
+    padding-right: 50px;
 }
 
 .card-ecobazar__title:hover {
@@ -169,6 +177,7 @@
     font-size: 18px;
     line-height: 1.6;
     position: relative;
+    padding: 40px 0px;
 }
 
 .business::before,
@@ -193,7 +202,7 @@
 }
 
 .technology {
-    padding-bottom: 85px;
+    margin-bottom: 85px;
     position: relative;
 }
 
@@ -237,8 +246,17 @@
 .text-platform__text {
     max-width: 480px;
     width: 100%;
-    margin-bottom: 39px;
     line-height: 1.66;
+}
+
+.text-technology__text p:not(:last-child),
+.text-platform__text p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.text-technology__text:not(:last-child),
+.text-platform__text:not(:last-child) {
+    margin-bottom: 39px;
 }
 
 .text-technology__link,
