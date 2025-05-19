@@ -47,9 +47,12 @@ footer {
     color: #FFF;
     font-size: 38px;
     line-height: 1.21;
-    margin-bottom: 31px;
     display: flex;
     flex-direction: column;
+}
+
+.faculty__title:not(:last-child) {
+    margin-bottom: 31px;
 }
 
 .faculty__cards {
@@ -72,6 +75,10 @@ footer {
 
 .card:hover {
     background-color: #FFBE48;
+}
+
+.card img {
+    height: 266px;
 }
 
 .card h3 {
@@ -187,6 +194,11 @@ footer {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.item__img {
+    max-width: 70px;
+    width: 100%;
 }
 
 .item__text {
